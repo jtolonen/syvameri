@@ -28,11 +28,7 @@
 
     <div class="mustekala">
       <img class="hattu" src="mustekala_hattu.svg"/>
-        <div class="lonkerot">
-          <img class="lonkero1" src="lonkero1.svg"/>
-          <img class="lonkero2" src="lonkero2.svg"/>
-          <img class="lonkero3" src="lonkero3.svg"/>
-        </div>
+          <img class="lonkerot" src="lonkerot.svg"/>
       <img class="muste" src="muste.svg"/>
     </div>
 
@@ -228,8 +224,8 @@
 /* .mustekala pitää sisällään hatun ja lonkerot*/
 
 .mustekala {
-	height: 25%;
-	width: 25%;
+	height: 15%;
+	width: 20%;
 	position: absolute;
 	margin-top: -145%;
 	margin-left: 40%;
@@ -238,19 +234,23 @@
 }
 
 .hattu {
-	width: 80%;
 	position: absolute;
 	z-index: 100;
 }
 
 .lonkerot {
-	width: 30%;
+	width: 85%;
+	margin-left: 10%;
+	margin-top: 35%;
 	position: absolute;
 }
 
 .muste {
 	visibility: hidden;
 	opacity: 0;
+	width: 80%;
+	margin-top: 110%;
+	margin-left: 22%;
 }
 
 .mustekala:hover .muste {
@@ -343,20 +343,20 @@
 /* SUKELTAJA */
 
 .sukeltaja { /*koko homma*/
-	width: 27%;
+	width: 20%;
 	height: 14%;
-	margin-left: 75%; 
-	margin-top: -115%;
+	margin-left: 76%; 
+	margin-top: -114%;
 	position: absolute;
+	border: 1px solid;
+	border-color: red;
 }
 
 .sukeltajan_piilo { 
-	width: 75%;
 	position: absolute;
 }
 
-.sukellus { /*varsinainen sukeltajan kuva*/
-	width: 70%;
+.sukellus { 
 	position: absolute;
 	z-index: -5;
 }
